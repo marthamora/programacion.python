@@ -1,6 +1,7 @@
 #Martha Elena Nieves Mora
 #25112016
-#laboratorio 1, tarea 2x=input("valor cateto opuesto")
+#laboratorio 1, tarea 2
+x=input("valor cateto opuesto")
 y=input("cateto adyacente")
 import math
 def hip(x,y):
