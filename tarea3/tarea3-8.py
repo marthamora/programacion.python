@@ -1,9 +1,11 @@
 #martha elena nieves mora
 #laboratorio 1 tarea 3
 #29112016
-a=[]
-a=input("ingrese numero de 4 digitos ")
-        def sumaenteros(a):
-    b=[a[0]+a[1]+a[2]+a[3]]
-    return b
-print sumaenteros:", sumaenteros(a)
+print "ingresa numero de 4 digitos"
+x= [(raw_input())]
+a= int(x[0][0])
+b= int(x[0][1])
+c= int(x[0][2])
+d= int(x[0][3])
+   print "la suma de tu numero digito por dgito es :",  a+b+c+d
+
