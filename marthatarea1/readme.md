@@ -1,3 +1,3 @@
-![imagentarea1.png]
+![algo](imagentarea1.png)
 
 
