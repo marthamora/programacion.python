@@ -1,0 +1,17 @@
+#MARTHA ELENA NIEVES MORA
+#LABORATORIO 3B
+#EJERCICIO 1c
+
+import matplotlib.pyplot as plt
+import numpy as np
+import math
+
+x=np.linspace(-1,5,120)
+y=x*math.e**(-2*x)
+plt.plot(x,y, linewidth=5, color='r')
+plt.legend()
+plt.title('f(x)=x*math.e**(-2*x)')
+plt.xlabel('tiempo')
+plt.ylabel('cm')
+plt.grind(true)
+plt.show()
