@@ -1,11 +1,16 @@
 #martha elena nieves mora
 #laboratorio 1 tarea 3
 #29112016
-print "ingresa numero de 4 digitos"
-x= [(raw_input())]
-a= int(x[0][0])
-b= int(x[0][1])
-c= int(x[0][2])
-d= int(x[0][3])
-   print "la suma de tu numero digito por dgito es :",  a+b+c+d
 
+lista=input("ingresa tu numero de 4 digitos entre comillas: ")
+a=lista[0]
+b=lista[1]
+c=lista[2]
+d=lista[3]
+e=[a,b,c,d]
+print e
+sum=0
+for i in e:
+    a = int(i)
+    sum = sum + a
+    print sum
